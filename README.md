@@ -1,0 +1,7 @@
+# CoolWeatherTest
+酷欧天气App
+实现天气APP的日常功能，图片背景用的是bing的每日一图（使用Glide进行解析），数据格式用的是json（主要用jsonObject和Gson进行解析）
+使用到了Litepal来操作数据库
+使用了okhttp3 来进行网络请求
+使用service来进行后台的自动更新天气
+建议使用 实体测试机来进行APP体验，虚拟机的定位效果、天气信息都不够稳定和准确
